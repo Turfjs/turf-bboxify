@@ -1,0 +1,33 @@
+{
+  "name": "turf-bboxify",
+  "version": "1.0.0",
+  "description": "[Turf](http://turfjs.org/) bboxify module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Turfjs/turf-bboxify.git"
+  },
+  "keywords": [
+    "turf",
+    "extent",
+    "bbox",
+    "bboxify"
+  ],
+  "author": "morganherlocker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Turfjs/turf-bboxify/issues"
+  },
+  "homepage": "https://github.com/Turfjs/turf-bboxify",
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "turf-featurecollection": "^1.0.1",
+    "turf-polygon": "^1.0.3"
+  },
+  "dependencies": {
+    "geojson-extent": "^0.3.1"
+  }
+}
